@@ -5,7 +5,7 @@ pipeline:
       username: $${NPM_USERNAME}
       token: $${NPM_TOKEN}
       email: $${NPM_EMAIL}
-    secrets: [NPM_USERNAME, NPM_PASSWORD, NPM_EMAIL]
+    secrets: [NPM_USERNAME, NPM_TOKEN, NPM_EMAIL]
     when:
       event: tag
 
