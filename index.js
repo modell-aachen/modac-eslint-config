@@ -31,7 +31,6 @@ module.exports = {
         'no-undef': [0],
         'keyword-spacing': [0],
         'no-unexpected-multiline': [1],
-        'no-unused-vars': [1],
         'no-var': [1],
         'one-var': [2, 'never'],
         'semi': [2, 'always'],
