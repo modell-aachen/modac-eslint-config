@@ -1,6 +1,6 @@
 {
   "name": "@modac/eslint-config",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "eslint config for modac",
   "main": "index.js",
   "author": "Modell Aachen GmbH",
