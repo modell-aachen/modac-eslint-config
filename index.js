@@ -21,6 +21,7 @@ module.exports = {
             'singleline': { 'delimiter': 'comma', 'requireLast': false }
         }],
         '@typescript-eslint/no-use-before-define': [0],
+        "@typescript-eslint/semi": ["error"],
         'brace-style': [1],
         'callback-return': [2, ['callback', 'cb', 'next', 'done', 'proceed']],
         'comma-dangle': ['warn', 'always-multiline'],
@@ -42,12 +43,11 @@ module.exports = {
         'no-unexpected-multiline': [1],
         'no-var': [1],
         'one-var': [2, 'never'],
-        'semi': [2, 'always'],
+        'semi': "off",
         'vue/html-closing-bracket-newline': ['error', {
             'singleline': 'never',
             'multiline': 'never'
         }],
         'vue/html-indent': ['error', 4],
     }
-
-}
+};
